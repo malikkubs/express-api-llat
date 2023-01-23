@@ -1,0 +1,16 @@
+@startuml logon_flow
+
+start
+:ada;
+:input email dan password\njalan bareng;
+:jalan;
+if (email dan password sama) then (ya)
+  
+else (tidak)
+:(alert error);
+
+  
+endif
+:masuk tampilan home;
+end
+@enduml
